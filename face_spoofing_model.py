@@ -77,7 +77,7 @@ model.compile(
 )
 
 # Callbacks
-early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+early_stopping = EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True)
 reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=3, min_lr=1e-6)
 
 # Train the model
@@ -90,7 +90,7 @@ history = model.fit(
 )
 
 # Save the model
-model.save("face_spoofing_cnn_model_improved3.keras")
+model.save("face_spoofing_cnn_model_improved4.keras")
 
 # Evaluate the model
 loss, accuracy = model.evaluate(val_dataset)
