@@ -18,7 +18,7 @@ os.makedirs(val_spoof_dir, exist_ok=True)
 
 # Set the mode manually using boolean flags
 is_train = False  # Set to True for training, False for validation
-is_real = False   # Set to True for real images, False for spoof images
+is_real = True   # Set to True for real images, False for spoof images
 
 # Frames to skip (set to 1 for every frame)
 frame_skip = 1  # Capture every 5th frame
