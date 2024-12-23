@@ -12,7 +12,7 @@ from keras.models import load_model
 from keras.preprocessing.image import ImageDataGenerator
 
 # === Configuration ===
-model_path = "C:\\Users\\vibhanshu upadhyay\\anti-spoofing-2\\face_spoofing_cnn_model_improved4.keras"  # Path to your .keras model
+model_path = "C:\\Users\\vibhanshu upadhyay\\anti-spoofing-2\\models\\face_spoofing_cnn_model_improved4.keras"  # Path to your .keras model
 val_data_dir = "C:\\Users\\vibhanshu upadhyay\\anti-spoofing-2\\dataset\\val"  # Path to validation directory
 class_names = ["real", "spoof"]  # Update this based on your dataset
 

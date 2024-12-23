@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 # Load the pre-trained anti-spoofing model
-model_path = "C:\\Users\\vibhanshu upadhyay\\anti-spoofing-2\\face_spoofing_cnn_model_improved4.keras"
+model_path = "C:\\Users\\vibhanshu upadhyay\\anti-spoofing-2\\models\\face_spoofing_cnn_model_improved4.keras"
 try:
     anti_spoofing_model = load_model(model_path)
 except Exception as e:
